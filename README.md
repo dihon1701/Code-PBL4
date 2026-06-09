@@ -4,7 +4,7 @@ Dự án này tái hiện và khảo sát thực nghiệm mô hình dự đoán 
 
 Chúng tôi tái hiện lại các mô hình tổ hợp kết hợp nhiều backbone theo đúng kiến trúc và quy trình của tác giả, đồng thời khảo sát một cách có hệ thống các mức độ kết hợp khác nhau — từ 2 backbone đến 5 backbone — với cấu hình chính là **4 backbone** mà tác giả đã chọn ra sau nhiều lần thực nghiệm (ShapeNet-C, EfficientNetB5, DenseNet201, ResNext50).
 
-Mô hình được lấy cảm hứng từ tác giả và chỉ được tối ưu/giảm nhẹ lại cho phù hợp với giới hạn tài nguyên (RAM và GPU trên Google Colab), nhưng vẫn giữ nguyên triết lý thiết kế: backbone đóng băng, mạng readout tích chập 1×1, và kết hợp ở mức phân bố mật độ điểm nhìn qua phép logsumexp.
+Mô hình được lấy cảm hứng từ tác giả và chỉ được tối ưu/giảm nhẹ lại cho phù hợp với giới hạn tài nguyên (RAM và GPU phù hợp để chạy trên Google Colab), nhưng vẫn giữ nguyên triết lý thiết kế: backbone đóng băng, mạng readout tích chập 1×1, và kết hợp ở mức phân bố mật độ điểm nhìn qua phép logsumexp.
 
 ## Tổng quan
 
